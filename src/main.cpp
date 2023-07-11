@@ -31,7 +31,6 @@ void setup()
     Serial.println(response);
     if (response = "OK") {
       Serial.println("Serial=19200");
-      delay(1000);
       break;
     }
     else
@@ -48,7 +47,6 @@ void setup()
     Serial.println(response);
     if (response = "READY") {
       Serial.println("SIM OK");
-      delay(1000);
       break;
     }
     else
